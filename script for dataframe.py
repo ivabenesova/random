@@ -1,9 +1,7 @@
 import numpy as np
 import pandas as pd
-import csv
-import sys
 import glob
-import os.path
+
 
 #generates an empty list for collecting signal intensity areas of selected masses from individual mass spectra
 glycan_table = []

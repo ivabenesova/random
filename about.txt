@@ -1,6 +1,5 @@
-https://www.nature.com/articles/s41598-023-51021-3
 
-scripts for data processing
+My very first scripts for data processing for https://www.nature.com/articles/s41598-023-51021-3
 
 MALDI mass spectra were processed in FlexAnalysis software (Bruker) using a method created directly for permethylated glycans. 
 First, the mass spectra baseline was subtracted (TopHat) and spectra were smoothed 
@@ -12,4 +11,3 @@ Individual masses in the database were iterated and signal intensity areas of co
 The first peak was searched within a mass window around reference masses  +- 0.2 Da, the mass error (ref. mass - measured mass/ref. mass) 
 of the assigned peak was calculated and taken in account in ongoing database and peaklists iteration: the center of mass window 
 was shifted by the mass error in order to compensate mass shift in the range of higher m/z. 
-
